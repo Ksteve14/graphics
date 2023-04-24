@@ -1,0 +1,112 @@
+/* css style sheet for my Responsive Shell (Final Exam)*/ 	
+header{
+	font-family: Griffon Light;
+	color:black;
+	text-align: center;
+	text-decoration: underline;
+	font-size:40px;
+}
+
+
+
+
+
+body{
+background-color:#fae1dd;
+}
+
+.container {
+    position: relative;
+    width: 62%;
+    margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 480px;
+	background-color: #FFFFFF;
+    border-color:#ffd7ba;
+    border-style:solid;
+    border-width:20px;
+}
+
+.Subsectionhead{
+    position:relative;
+    font-family: Griffon Light;
+	color:black;
+	text-align: center;
+	text-decoration: underline;
+	font-size:30px;
+
+}
+
+.container2{
+    position:relative;
+    height:300px;
+    width:100%;
+    background-color:none;
+    bottom:-20px;
+    left:0px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  .col {
+      margin: 30px;
+      height: 250px;
+      width:390px;
+      background-color:#FFFFFF;
+      border: 5px solid #ffd7ba;
+      font-size:20px;
+      text-align: center;
+      font-family: Griffon Light;
+      color:#110D01;
+  }
+
+
+  
+ 
+
+  .links{
+    text-align: center;
+    font-family: Griffon Light;
+    background-color: none;
+}
+  
+
+
+
+.footer {
+    position: relative;
+	height:100px;
+    width: 100%;
+    background-color: #fcd5ce;
+    font-family: Griffon Light;
+    color:palevioletred;
+    text-align: center;
+    bottom:-220px;
+}
+
+.links:hover {
+    background-color: palevioletred;
+    color: white;
+    font-family: Griffon Light;
+  }
+
+  .links{
+    text-align: center;
+    font-family: Griffon Light;
+    background-color: none;
+    background-color:#fae1dd ; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: Griffon Light;
+    width:75%;
+}
